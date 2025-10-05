@@ -1,6 +1,6 @@
 resource aws_key_pair my_key {
         key_name = "terra_key_ec2"
-        public_key = file("terra-key-ec2.pub")   
+        public_key = Upload your pub key   
 }
 
 #vpc & sg
